@@ -8,7 +8,8 @@ int main(){
 
     int p=0, q=1, sum=0;
     int n;
-    scanf("%d\n", &n);
+    scanf("%d", &n);
+    printf("%d %d ", p, q);
     for(int i=0; i<=n; i++){
        sum=p+q;
        p=q;
