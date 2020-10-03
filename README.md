@@ -8,12 +8,12 @@ int main(){
 
     int p=0, q=1, sum=0;
     int n;
-    scanf("%d", &n);
-    for(i=0; i<=n; i++){
+    scanf("%d\n", &n);
+    for(int i=0; i<=n; i++){
        sum=p+q;
        p=q;
        q=sum;
-       printf("%d", sum);
+       printf("%d ", sum);
   }
  
  return 0;
